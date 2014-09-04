@@ -1,0 +1,81 @@
+<html> 
+<head> 
+<title>Eli Cooper Project 4</title> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="config.js"></script>
+<!-- <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+<script type="text/javascript" src="flickr.js"></script>
+<script type="text/javascript" src="yelp.js"></script> -->
+<script type="text/javascript" src="person.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<link rel="stylesheet" type="text/css" href="font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Volkhov:400italic" />
+<script type="text/javascript">
+  $(function() {
+    $('.titlebar').css('height', $(window).height() + 'px');
+    $(this).scrollTop(0);
+  });
+
+  function reload() {
+    location.reload();
+    scrollup();
+  }
+
+  function scrollup() {
+    $(this).scrollTop(0);
+  }
+</script>
+</head> 
+<body>
+  <div class="titlebar">
+    <div class="imgContainer">
+      <div class="img"></div>
+    </div>
+    <h1 class="title"></h1>
+    <div class="buttons">
+      <button onclick="reload()">generate a new person</button>
+    </div>
+    <aside class="scroll">or</aside>
+    <aside class="scroll">scroll to learn about me</aside>
+    <i class="fa fa-angle-down fa-5x"></i>
+  </div>
+
+  <div class="iam">
+    <h1 class="bigtext">I AM</h1>
+  </div>
+  <div class="photos">
+    <div class="photoContainer">
+      <div class="bigphotoContainer"></div>
+      <div class="photoList"></div>
+    </div>
+  </div>
+
+  <div class="iam">
+    <h1 class="bigtext">I LIKE</h1>
+  </div>
+  <div class="photos">
+    <div class="photoContainer">
+      <div class="bigphotoContainer"></div>
+      <div class="photoList"></div>
+    </div>
+  </div>
+
+  <div class="iam">
+    <h1 class="bigtext">I GREW UP</h1>
+  </div>
+  <div class="photos">
+    <div class="photoContainer">
+      <div class="bigphotoContainer"></div>
+      <div class="photoList"></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="buttons">
+      <button onclick="reload()">generate a new person</button>
+      <button onclick="scrollup()"><i class="fa fa-long-arrow-up fa-lg"></i></button>
+    </div>
+  </div>
+</body>
+</html>

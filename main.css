@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+body * {
+	-webkit-font-smoothing: antialiased;
+}
+
+.titlebar {
+	width: 100%;
+	height: auto;
+	min-height: 800px;
+	text-align: center;
+	color: #fff;
+}
+
+.scroll {
+	margin-top: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.imgContainer {
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	padding: 50px 0 20px 0;
+}
+
+.img {
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	overflow: hidden;
+}
+
+.img img {
+	width: 350px;
+	height: 350px;
+}
+
+.iam {
+	height: 167px;
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.bigtext {
+	color: #333;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+	font-size: 144px;
+	font-family: 'Volkhov Italic', serif;
+	font-style: italic;
+}
+
+.title {
+	text-transform: capitalize;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+	font-size: 60px;
+	color: #fff;
+	padding-bottom: 30px;
+}
+
+.occupation, .hobby, .role, .food, .drink, .animal, .country, .location, .achievement {
+	margin: 20px 0;
+	/*text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);*/
+	font-size: 22px;
+	font-family: helvetica, arial, sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 122px;
+	left: 75px;
+	z-index: 2;
+}
+
+.hobby, .drink, .location {
+	top: 842px;
+}
+
+.role, .animal, .achievement {
+	top: 1562px;
+}
+
+.occupation span, .hobby span, .role span, .food span, .drink span, .animal span, .country span, .location span, .achievement span {
+	background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.photos {
+	width: 1000px;
+	height: auto;
+	background-color: #ccc;
+	margin: 30px auto;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.photoList {
+	display: inline;
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+}
+
+.photoList img, .bigphoto {
+	margin: 30px 15px;
+	padding: 10px;
+	background-color: #333;
+}
+
+.photoList img {
+	width: 150px;
+	height: 150px;
+	margin: 35px 15px;
+}
+
+.bigPhoto {
+	display: block;
+	float: left;
+	position: relative;
+	width: 640px;
+	height: 640px;
+}
+
+.photoContainer {
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	padding: 50px;
+	position: relative;
+}
+
+.footer {
+	height: 200px;
+	margin: 100px auto 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+
+button {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 15px;
+	border: 2px #fff solid;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
